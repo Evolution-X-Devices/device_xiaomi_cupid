@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SHIPPING_API_LEVEL := 31
 BOARD_SHIPPING_API_LEVEL := 31
 
+# APN
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
