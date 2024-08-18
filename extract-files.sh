@@ -52,6 +52,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/bin/hw/android.hardware.security.keymint-service-qti|vendor/lib64/libqtikeymint.so)
+            grep -q "android.hardware.security.rkp-V1-ndk.so" "${2}" || "${PATCHELF_0_17_2}" --add-needed "android.hardware.security.rkp-V1-ndk.so" "${2}"
+            ;;
         vendor/etc/camera/cupid_enhance_motiontuning.xml|vendor/etc/camera/cupid_motiontuning.xml)
             sed -i 's/xml=version/xml version/g' "${2}"
             ;;
