@@ -61,6 +61,12 @@ function blob_fixup() {
         vendor/etc/init/init.embmssl_server.rc)
             sed -i -n '/interface/!p' "${2}"
             ;;
+        vendor/etc/media_codecs_c2_audio.xml)
+            sed -i '/media_codecs_dolby_audio/d' "${2}"
+            ;;
+        vendor/etc/qcril_database/upgrade/config/6.0_config.sql)
+            sed -i '/persist.vendor.radio.redir_party_num/ s/true/false/g' "${2}"
+            ;;
         vendor/etc/vintf/manifest/c2_manifest_vendor.xml)
             sed -ni '/dolby/!p' "${2}"
             ;;
