@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "SettingsResCupid",
-    product_specific: true,
+    vendor: true,
 }

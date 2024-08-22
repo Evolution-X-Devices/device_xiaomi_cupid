@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "FrameworksResCupid",
-    product_specific: true,
+    vendor: true,
 }

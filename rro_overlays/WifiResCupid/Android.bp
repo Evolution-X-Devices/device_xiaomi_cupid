@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "WifiResCupid",
-    product_specific: true,
+    vendor: true,
 }

@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "TelephonyResCupid",
-    product_specific: true,
+    vendor: true,
 }
