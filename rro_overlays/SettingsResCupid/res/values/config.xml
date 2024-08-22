@@ -17,6 +17,7 @@
           <item>Automatic</item>
           <item>Vivid</item>
           <item>Saturated</item>
+          <item>Standard</item>
           <item>Original</item>
           <item>P3</item>
           <item>sRGB</item>
@@ -32,6 +33,7 @@
           <item>258</item>
           <item>256</item>
           <item>257</item>
+          <item>269</item>
           <item>268</item>
           <item>267</item>
      </integer-array>
