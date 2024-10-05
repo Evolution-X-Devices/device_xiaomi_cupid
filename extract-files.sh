@@ -73,9 +73,6 @@ function blob_fixup() {
         vendor/etc/qcril_database/upgrade/config/6.0_config.sql)
             sed -i '/persist.vendor.radio.redir_party_num/ s/true/false/g' "${2}"
             ;;
-        vendor/etc/vintf/manifest/c2_manifest_vendor.xml)
-            sed -ni '/dolby/!p' "${2}"
-            ;;
         vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
@@ -83,14 +80,8 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v33.so" "${2}"
             ;;
             ;;
-        system/lib64/libcamera_algoup_jni.xiaomi.so|system/lib64/libcamera_mianode_jni.xiaomi.so)
-            "${PATCHELF}" --add-needed "libgui_shim_miuicamera.so" "${2}"
-            ;;
         system/lib64/libmicampostproc_client.so)
             "${PATCHELF}" --remove-needed "libhidltransport.so" "${2}"
-            ;;
-        vendor/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so)
-            sed -i 's/_ZN13DisplayConfig10ClientImpl13ClientImplGetENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPNS_14ConfigCallbackE/_ZN13DisplayConfig10ClientImpl4InitENSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEPNS_14ConfigCallbackE\x0\x0\x0\x0\x0\x0\x0\x0\x0\x0/g' "${2}"
             ;;
     esac
 }
