@@ -1995,6 +1995,7 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|bfddf0a295b391bc1ed7961d547e9b
 
 # QCOM system daemon
 vendor/bin/qcom-system-daemon
+vendor/etc/seccomp_policy/qti-systemd.policy
 vendor/lib/libsubsystem_control.so
 vendor/lib64/libsubsystem_control.so
 
@@ -2034,7 +2035,6 @@ vendor/bin/qrtr-ns
 vendor/etc/init/qmipriod.debug.rc
 vendor/etc/init/qmipriod.rc
 vendor/etc/sec_config
-vendor/etc/seccomp_policy/qti-systemd.policy
 vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
