@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">Laipni lūdzam Xiaomi 12 tālrunī!</string>
+    <string name="deferred_setup_wizard_title">EvolutionX iestatīšanas pabeigšana</string>
+    <string name="device_name">Xiaomi 12</string>
+    <string name="setup_wizard_title">EvolutionX iestatīšana</string>
+</resources>
