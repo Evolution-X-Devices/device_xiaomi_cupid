@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from cupid_eea_global_images_OS1.0.10.0.ULCEUXM_14.0
+# All unpinned blobs below are extracted from cupid_eea_global_images_OS1.0.12.0.ULCEUXM_14.0
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_acdb_cal.acdb
