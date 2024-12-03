@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">‏مرحبًا بك في هاتف Xiaomi 12</string>
+    <string name="deferred_setup_wizard_title">‏إكمال إعداد EvolutionX</string>
+    <string name="device_name">Xiaomi 12</string>
+    <string name="setup_wizard_title">‏إعداد EvolutionX</string>
+</resources>
