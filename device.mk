@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
     FrameworksResCupid \
     LineageResCupid \
     NfcResCupid \
+    PixelSetupWizardResCupid \
     SettingsProviderResCupid \
     SettingsResCupid \
     SystemUIResCupid \

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">Vítá vás Xiaomi 12</string>
+    <string name="deferred_setup_wizard_title">Dokončite nastavenie EvolutionX</string>
+    <string name="device_name">Xiaomi 12</string>
+    <string name="setup_wizard_title">Nastavenie telefónu EvolutionX</string>
+</resources>
