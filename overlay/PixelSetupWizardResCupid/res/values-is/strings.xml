@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bc_welcome_message">Velkomin(n) í Xiaomi 12</string>
+    <string name="deferred_setup_wizard_title">Ljúktu við að setja upp EvolutionX</string>
+    <string name="device_name">Xiaomi 12</string>
+    <string name="setup_wizard_title">Uppsetning EvolutionX</string>
+</resources>
