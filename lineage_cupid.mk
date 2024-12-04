@@ -14,7 +14,7 @@ PRODUCT_NAME := lineage_cupid
 PRODUCT_DEVICE := cupid
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := 2201123G
+PRODUCT_MODEL := Xiaomi 12
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="cupid_global-user 15 AQ3A.241006.001 OS2.0.3.0.VLCMIXM release-keys" \
