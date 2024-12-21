@@ -27,3 +27,8 @@ PRODUCT_SYSTEM_DEVICE := cupid
 BUILD_FINGERPRINT := Xiaomi/cupid_global/cupid:14/UKQ1.230917.001/V816.0.6.0.ULCMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# EvolutionX
+EVO_BUILD_TYPE := Official
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_HAS_UDFPS := true
