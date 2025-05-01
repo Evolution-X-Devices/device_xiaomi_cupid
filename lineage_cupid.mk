@@ -23,3 +23,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemName=cupid_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# EvolutionX
+EVO_BUILD_TYPE := Official
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_HAS_UDFPS := true
+TARGET_INCLUDE_ACCORD := false
