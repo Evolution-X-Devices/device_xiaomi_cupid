@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from cupid OS2.0.3.0.VLCMIXM
+## are from cupid OS2.0.4.0.VLCMIXM
 
 abl.img;AB
 aop.img;AB
