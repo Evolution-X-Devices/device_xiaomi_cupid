@@ -38,5 +38,17 @@
   {
     "repository": "hardware_xiaomi",
     "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "AviumUI-Devices/device_xiaomi_miuicamera-cupid
+    "target_path": "device/xiaomi/miuicamera-cupid",
+    "remote": "github-non-los",
+    "branch": "avium-16.2"
+  },
+  {
+    "repository": "AviumUI-Devices/vendor_xiaomi_miuicamera-cupid
+    "target_path": "vendor/xiaomi/miuicamera-cupid",
+    "remote": "github-non-los",
+    "branch": "avium-16.2"
   }
 ]
